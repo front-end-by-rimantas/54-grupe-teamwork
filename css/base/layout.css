@@ -1,0 +1,67 @@
+:root {
+  --gap: 1rem;
+  --col1: calc((100% - 12 * var(--gap)) / 12);
+  --col2: calc(var(--col1) + var(--gap) + var(--col1));
+  --col3: calc(var(--col2) + var(--gap) + var(--col1));
+  --col4: calc(var(--col3) + var(--gap) + var(--col1));
+  --col5: calc(var(--col4) + var(--gap) + var(--col1));
+  --col6: calc(var(--col5) + var(--gap) + var(--col1));
+  --col7: calc(var(--col6) + var(--gap) + var(--col1));
+  --col8: calc(var(--col7) + var(--gap) + var(--col1));
+  --col9: calc(var(--col8) + var(--gap) + var(--col1));
+  --col10: calc(var(--col9) + var(--gap) + var(--col1));
+  --col11: calc(var(--col10) + var(--gap) + var(--col1));
+  --col12: calc(var(--col11) + var(--gap) + var(--col1));
+}
+
+.container {
+  width: 100%;
+  padding: 2rem 0;
+}
+.container .row {
+  display: inline-block;
+  width: 1000px;
+  margin: 0.1rem calc(50% - 500px);
+}
+.container [class*='col-'] {
+  border: 1px solid red;
+  height: 1.5rem;
+  float: left;
+  margin: 0 calc(var(--gap) / 2);
+}
+.container .col-1 {
+  width: var(--col1);
+}
+.container .col-2 {
+  width: var(--col2);
+}
+.container .col-3 {
+  width: var(--col3);
+}
+.container .col-4 {
+  width: var(--col4);
+}
+.container .col-5 {
+  width: var(--col5);
+}
+.container .col-6 {
+  width: var(--col6);
+}
+.container .col-7 {
+  width: var(--col7);
+}
+.container .col-8 {
+  width: var(--col8);
+}
+.container .col-9 {
+  width: var(--col9);
+}
+.container .col-10 {
+  width: var(--col10);
+}
+.container .col-11 {
+  width: var(--col11);
+}
+.container .col-12 {
+  width: var(--col12);
+}
