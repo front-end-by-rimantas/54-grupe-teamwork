@@ -1,19 +1,29 @@
+import { bestInboxDeal } from "../components/bestInboxDeal.js";
+import { bestRatedExperience } from "../components/bestRatedExperience.js";
+import { carListings } from "../components/carListings.js";
+import { exploreByCity } from "../components/exploreByCity.js";
+import { footer } from "../components/footer.js";
+import { generalListings } from "../components/generalListings.js";
 import { header } from "../components/header.js";
 import { hero } from "../components/hero.js";
+import { ourLatestCategories } from "../components/ourLatestCategories.js";
+import { popularPlaces } from "../components/popularPlaces.js";
+import { realEstateListings } from "../components/realEstateListings.js";
+import { restaurantsListings } from "../components/restaurantsListings.js";
+import { tipsAndTricks } from "../components/tipsAndTricks.js";
+import { twoImageBlocks } from "../components/twoImageBlocks.js";
 
-// header
 header();
-// hero
 hero();
-// popular places
-// general listings
-// best rated
-// restaurants listings
-// latest categories
-// container fluid
-// real estate listings
-// explore by city
-// car listing
-// tip tricks
-// best deal inbox
-// footer
+popularPlaces();
+generalListings();
+bestRatedExperience();
+restaurantsListings();
+ourLatestCategories();
+twoImageBlocks();
+realEstateListings();
+exploreByCity();
+carListings();
+tipsAndTricks();
+bestInboxDeal();
+footer();

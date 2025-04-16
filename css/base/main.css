@@ -8,3 +8,26 @@ body * {
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.bg-sand {
+  background-color: #f5f2e8;
+}
+.bg-newsletter {
+  background-color: #f3f5f9;
+  background-image: url('../../img/bg-newsletter.png');
+}
+
+.section-title {
+  font-size: 3rem;
+  text-align: center;
+  color: #010f2e;
+  text-transform: capitalize;
+}
+.section-description {
+  display: flex;
+  justify-self: center;
+  color: #32363b;
+  max-width: 36rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
