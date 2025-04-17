@@ -1,0 +1,7 @@
+.general-listing-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.general-listing-card:hover {
+  box-shadow: 0 0.2rem 0.4rem #0002;
+}

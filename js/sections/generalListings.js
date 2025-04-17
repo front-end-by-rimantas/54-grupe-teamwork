@@ -1,3 +1,7 @@
+import { generalListingData } from "../data/generalListingData.js";
+import { renderCardsList } from "../components/renderCardsList.js";
+import { generalListingCard } from "../components/generalListingCard.js";
+
 export function generalListings() {
     const HTML = `
         <section class="container bg-sand">
@@ -9,7 +13,7 @@ export function generalListings() {
             </div>
             <div class="row">
                 <div class="col-12">
-                    GENERAL LISTINGS CONTENT
+                    ${renderCardsList(generalListingData, generalListingCard)}
                 </div>
             </div>
         </section>`;
