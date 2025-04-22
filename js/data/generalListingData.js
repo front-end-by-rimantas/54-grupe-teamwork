@@ -1,7 +1,7 @@
 export const generalListingData = [
     {
         id: 1,
-        imgSrc: '#',
+        imgSrc: 'p1.png',
         imgAlt: 'Something beautiful',
         rating: 4,
         operatingHours: {
@@ -19,7 +19,7 @@ export const generalListingData = [
     },
     {
         id: 2,
-        imgSrc: '#',
+        imgSrc: 'p2.png',
         imgAlt: 'Something beautiful',
         rating: 4,
         operatingHours: {
@@ -39,7 +39,7 @@ export const generalListingData = [
     },
     {
         id: 3,
-        imgSrc: '#',
+        imgSrc: 'p3.png',
         imgAlt: 'Something beautiful',
         rating: 4,
         operatingHours: {

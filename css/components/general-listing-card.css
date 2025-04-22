@@ -1,7 +1,87 @@
+.general-listing {
+  display: grid;
+  gap: 2rem;
+}
 .general-listing-card {
+  width: 100%;
   background-color: #fff;
   border-radius: 0.5rem;
 }
 .general-listing-card:hover {
   box-shadow: 0 0.2rem 0.4rem #0002;
+}
+.general-listing-card .visual {
+  position: relative;
+}
+.general-listing-card .visual img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.general-listing-card .tag {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 0.65rem;
+  line-height: 1em;
+  font-weight: bold;
+  padding: 0.75em 1em;
+  background-color: green;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+}
+.general-listing-card .tag.tag-24 {
+}
+.general-listing-card .tag.tag-open {
+}
+.general-listing-card .tag.tag-closed {
+}
+.general-listing-card .rating {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.general-listing-card .name {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.general-listing-card .ad {
+}
+.general-listing-card .verified {
+}
+.general-listing-card .details {
+}
+.general-listing-card .detail {
+}
+.general-listing-card .footer {
+}
+.general-listing-card .search {
+}
+.general-listing-card .favorite {
+}
+.general-listing-card .more {
+}
+
+@media (min-width: 800px) {
+  .general-listing {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .general-listing-card {
+    grid-column: span 2;
+  }
+  .general-listing-card:nth-child(3) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .general-listing {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .general-listing-card,
+  .general-listing-card:nth-child(3) {
+    grid-column: auto;
+  }
 }

@@ -12,7 +12,7 @@ export function generalListings() {
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 general-listing">
                     ${renderCardsList(generalListingData, generalListingCard)}
                 </div>
             </div>
