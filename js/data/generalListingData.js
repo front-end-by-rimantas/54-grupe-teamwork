@@ -21,7 +21,7 @@ export const generalListingData = [
         id: 2,
         imgSrc: 'p2.png',
         imgAlt: 'Something beautiful',
-        rating: 4,
+        rating: 3.62,
         operatingHours: {
             alwaysOpen: false,
             startingHour: 9,
@@ -41,15 +41,15 @@ export const generalListingData = [
         id: 3,
         imgSrc: 'p3.png',
         imgAlt: 'Something beautiful',
-        rating: 4,
+        rating: 5,
         operatingHours: {
             alwaysOpen: false,
-            startingHour: 9,
-            closingHour: 21,
+            startingHour: 21,
+            closingHour: 9,
         },
         isAd: true,
         isVerified: true,
-        name: 'Excelsior Coffee',
+        name: 'Excelsior Coffee Excelsior Coffee Excelsior Coffee',
         innerPageHref: '#',
         searchHref: '#',
         details: {
